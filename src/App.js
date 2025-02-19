@@ -18,7 +18,7 @@ function App() {
     <div>
       <h1>Todo List</h1>
       <input  onChange={(event)=>setInputValue(event.target.value)}   placeholder="할 일을 입력하세요"  value={inputValue}></input>
-      <button onClick={addTodo}>추가!!!문어가 고침</button>
+      <button onClick={addTodo}>추가!!!문어가 고침 고양이도 고침</button>
       <ul>
         {
           todos.map((todo,index)=><li key={index}>{todo}</li>)
